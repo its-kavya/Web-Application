@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f6;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #4b2e83;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.day {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px #ddd;
+}
+
+.day.today {
+  background: #ffe6e6;
+  border: 2px solid #ff6f91;
+}
